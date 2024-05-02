@@ -1,0 +1,39 @@
+{
+    "name": "inspect-email",
+    "version": "1.0.0",
+    "description": "Validate the existence of the email, ensure it is not disposable, handle typo errors, and specify the provider type",
+    "main": "dist/index.js",
+    "files": [
+        "dist/**/*"
+    ],
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mukeshj05/inspect-email.git"
+    },
+    "keywords": [
+        "email-validation",
+        "disposible-emails",
+        "email",
+        "domains",
+        "mx-records",
+        "email-typo",
+        "email-exists"
+    ],
+    "author": "Mukesh J",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mukeshj05/inspect-email/issues"
+    },
+    "homepage": "https://github.com/mukeshj05/inspect-email#readme",
+    "devDependencies": {
+        "@types/mailcheck": "^1.1.37",
+        "@types/node": "^20.10.6",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "mailcheck": "^1.1.1"
+    }
+}
